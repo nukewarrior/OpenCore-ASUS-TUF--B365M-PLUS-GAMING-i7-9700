@@ -12,7 +12,10 @@
 
   1. 制作OpenCore安装U盘，拷贝EFI文件夹至U盘BOOT分区
 
-  2. 通过 [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS "GenSMBIOS") 生成自己的SMBIOS填入 `config.plist` -> `PlatformInfo` 中
+  2. 通过 [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS "GenSMBIOS") 生成自己的SMBIOS填入 `config.plist` -> `PlatformInfo` 中，
+     和我一样的配置，请选择iMac19,1
+
+  3. 删除 `EFI` -> `OC` -> `Kexts` -> `USBports.kext`
 
 - 最后完善
 
