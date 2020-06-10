@@ -4,12 +4,21 @@
 
   - 主板：ASUS-TUF-B365M-PLUS-GAMING
   - CPU：i7 9700
+  - GPU：5700xt
 
 - BIOS设置
 
 - 使用方法
 
-  制作OpenCore安装U盘，拷贝EFI文件夹至U盘BOOT分区
+  1. 制作OpenCore安装U盘，拷贝EFI文件夹至U盘BOOT分区
+
+  2. 通过
+
+     [Gen]: https://github.com/corpnewt/GenSMBIOS
+
+     生成自己的SMBIOS填入config.plist->PlatformInfo中
+
+     
 
 - 最后完善
 
